@@ -113,11 +113,10 @@ footer {
 
 footer.hr{
         border: 1px solid  rgb(53, 57, 58);
-
 }
 
 .footer-conent{
-        padding: 2rem;
+        padding: 1rem;
 }
 
 
@@ -146,7 +145,7 @@ input[type=date]{
 
 input[type=submit]{
     padding: 15px 55px;
-    margin: 8px 0;
+    margin: 8px 30px;
     border: 1px solid  rgb(53, 57, 58);
     border-radius: 5px;
     background: rgb(1, 87, 119);

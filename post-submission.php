@@ -1,19 +1,5 @@
-<!DOCTYPE html> 
-<html>
-    <head>
-        <title>post submission</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+<?php include 'header.php'?>
 
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="post.html">Post</a></li>
-                <li><a href="post-submission.html" class="active">Post Submission</a></li>
-            </ul>       
-        </nav>
         
         <main>
             <div class="main-container">
@@ -35,11 +21,4 @@
             </div>
         </main>
         
-        <footer>
-            <hr>
-            <div class="footer-conent">&copy; Copyright 2020 beccarobertsondesigns</div>
-        </footer>
-    </body>
-
-   
-</html>
+<?php include 'footer.php' ?>
