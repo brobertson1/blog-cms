@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>post</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="post.html" class="active">Post</a></li>
+                    <li><a href="post-submission.html">Post Submission</a></li>
+                </ul>       
+        </nav> 
+        <main>
+            <div class="main-container">
+            <h1>Post title</h1>
+            <div class="name">Author Name</div>
+            <div class="date"><em>September 26, 2020</em></div>
+            <div>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                       
+            </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <div class="footer-conent"><footer>&copy; Copyright 2020 beccarobertsondesigns</footer>
+            </div>
+        </footer>
+    </body>
+    
+</html>
