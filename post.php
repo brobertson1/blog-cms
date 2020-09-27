@@ -1,3 +1,5 @@
+<!DOCTYPE html> 
+
 <html>
     <head>
         <title>post</title>
@@ -9,9 +11,9 @@
     <body>
         <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="post.html" class="active">Post</a></li>
-                    <li><a href="post-submission.html">Post Submission</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="post.php" class="active">Post</a></li>
+                    <li><a href="post-submission.php">Post Submission</a></li>
                 </ul>       
         </nav> 
         <main>

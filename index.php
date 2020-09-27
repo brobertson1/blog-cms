@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>blog cms</title>  
@@ -7,6 +8,7 @@
     </head>
 
     <body>
+    <header>   
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
@@ -14,6 +16,7 @@
                 <li><a href="post-submission.html">Post Submission</a></li>
             </ul>       
         </nav>
+    </header>
         <main>
             <div class="main-container">
             <h1>Hello, World!</h1>

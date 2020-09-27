@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,20 +21,3 @@
             </ul>       
         </nav>
     </header>
-        <main>
-            <div class="main-container">
-            <h1>Hello, World!</h1>
-            <h2>Latest Posts</h2>
-            <ul>
-              <li>
-                  <a href="post">Post 1</a>
-              </li> 
-            </ul>
-            </div>
-        </main>
-        <footer>
-            <hr>
-            <div class="footer-conent">&copy; Copyright 2020 beccarobertsondesigns</div>
-        </footer>
-    </body>
-</html>
