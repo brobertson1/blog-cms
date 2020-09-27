@@ -1,6 +1,48 @@
 body {
-    background: rgb(209, 220, 224);
+    background: rgb(25, 28, 29);
 }
+
+main {
+    background: rgb(209, 220, 224);
+    width: 100%;    
+}
+
+
+/*nav */
+
+
+nav li{
+    float: left;
+    }
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(25, 28, 29);
+    }   
+
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 55px;
+    background-color: #rgb(25, 28, 29);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    }
+
+    
+nav a:hover{
+    background: rgb(1, 75, 117);
+    }
+
+.active {
+    background: rgb(1, 117, 184);
+}
+
 
 /* typography */
 
@@ -19,15 +61,18 @@ h2{
 }
 
 
+
+
 /* form */
 
 input[type=text]{
-padding: 8px 10px;
-margin: 8px 0;
-box-sizing: border-box;
-border: 1px solid  rgb(53, 57, 58);
-border-radius: 5px;
-}
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid  rgb(53, 57, 58);
+    border-radius: 5px;
+    }
+
 
 input[type=date]{
     padding: 8px 10px;
@@ -40,16 +85,18 @@ input[type=date]{
     font-size: .75rem;
     }
 
+
 input[type=submit]{
-        padding: 15px 55px;
-        margin: 8px 0;
-        border: 1px solid  rgb(53, 57, 58);
-        border-radius: 5px;
-        background: rgb(1, 87, 119);
-        color: white;
-        font-size: 1rem;
-        font-weight: 600;
+    padding: 15px 55px;
+    margin: 8px 0;
+    border: 1px solid  rgb(53, 57, 58);
+    border-radius: 5px;
+    background: rgb(1, 87, 119);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
     }
+
 
 textarea{
     padding: 8px 10px;
@@ -57,7 +104,8 @@ textarea{
     box-sizing: border-box;
     border: 1px solid  rgb(53, 57, 58);
     border-radius: 5px;
-}
+    }
+
 
 label{
     padding: 8px 8px;
@@ -67,4 +115,4 @@ label{
     font-weight: 700;
     color: rgb(53, 57, 58);
 
-}
+    }
