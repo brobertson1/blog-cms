@@ -2,8 +2,8 @@ body {
     background: rgb(209, 220, 224);
 }
 
-main.container {
-    width: 75%; 
+.main-container {
+    width: 65%; 
     margin: auto;
 }
 
@@ -12,7 +12,9 @@ main.container {
 
 p {
     color: rgb(24, 29, 29);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 h1{
     font-family: 'Secular One', sans-serif;
