@@ -5,7 +5,7 @@ $dbUsername = "root";
 $dbPassword = "root";    
 $dbName = "blog_cms";
 
-//creat connection
+//create connection
 
 $conn = mysqli_connect($dbServer,$dbUsername,$dbPassword,$dbName);
 ?>

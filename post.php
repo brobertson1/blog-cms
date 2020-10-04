@@ -1,5 +1,8 @@
-<?php include 'header.php'?>
+<?php include 'header.php';
+?>
+
     <main>
+    <?php include_once 'db_connect.php';?>
         <?php
             function getPostDetailsFromDatabase(){
                 //ToDo in Module 4
@@ -13,7 +16,6 @@
         ?>
         <div class="main-container">
             <?php 
-                //post details contains all the data to generate the blog from
                 $postDetails = getPostDetailsFromDatabase();
             ?>
         <h1> <?php echo $postDetails["title"];?> </h1>
