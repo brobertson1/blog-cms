@@ -10,7 +10,7 @@
 
                 $postTitle = array();
                 while($row = mysqli_fetch_assoc($result)){
-                    array_push($postTitles, $row['title']);
+                    array_push($postTitle, $row['title']);
                 }
                 return $postTitle;
             }
