@@ -41,3 +41,8 @@ childrenNames.forEach(function(childName) {
     document.write("<li>" +childName+ "<li>");
 });
 
+//hidden button messaging
+
+function revealMessage() {
+document.getElementByID("hiddenMessage"),style.display = 'block';
+}
