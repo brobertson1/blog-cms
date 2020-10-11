@@ -30,11 +30,12 @@
                     }
                 ?>
             </ul>
+
+            <button onclick="revealMessage()" class="primary-button">Hello</button>
+            <p id="hiddenMessage" style="display:none" class="hidden-message">Hi There!</p>
             </div>
            
-            <button onclick="revealMessage()" class="primary-button">Hello</button>
-               
-            <p id="hiddenMessage" style="display:none" class="hidden-message">Hi There!</p>
+           
     </main>
         
 
