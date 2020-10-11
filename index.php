@@ -31,8 +31,10 @@
                 ?>
             </ul>
             </div>
-            <button onclick="revealMessage()">Hello</button>
-            <p id="hiddenMessage" style="display:none">Hi There!</p>
+           
+            <button onclick="revealMessage()" class="primary-button">Hello</button>
+               
+            <p id="hiddenMessage" style="display:none" class="hidden-message">Hi There!</p>
     </main>
         
 

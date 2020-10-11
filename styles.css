@@ -18,6 +18,24 @@ body {
     margin: auto;
 }
 
+.primary-button{
+    padding: 15px 55px;
+    margin: 8px 30px;
+    border: 1px solid  rgb(53, 57, 58);
+    border-radius: 5px;
+    background: rgb(1, 87, 119);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.hidden-message{
+    padding: 15px 55px;
+    margin: 8px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 
 /* typography */
 
