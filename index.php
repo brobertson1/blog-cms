@@ -31,6 +31,8 @@
                 ?>
             </ul>
             </div>
+            <button>Hello</button>
+            <p id="hiddenMessage" style="display:none">Hi There!</p>
     </main>
         
 

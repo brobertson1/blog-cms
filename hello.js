@@ -27,7 +27,7 @@ function getIsSettled(age, married) {       //function name
 isSettled = getIsSettled(age, married); //using variables
 isSettled = getIsSettled(5, false)      //using functions
 
-//document.write("<h1>Hello World</h1>");
+//document.write("<h1>Hello World</h1>"); //commented it out because I didn't want to have two H1s on the page
 var something = 'word';
 console.log(something);
 
