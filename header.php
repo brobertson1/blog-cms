@@ -9,6 +9,7 @@ ini_set('display_errors', 1);
         <title>blog cms</title>  
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+        
     
     </head>
 
