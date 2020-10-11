@@ -2,6 +2,7 @@
 ?>
 
     <main>
+   
         <?php
             function getPostTitlesFromDatabase() {
                 include_once 'db_connect.php';
