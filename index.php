@@ -31,7 +31,7 @@
                 ?>
             </ul>
             </div>
-            <button>Hello</button>
+            <button onclick="revealMessage()">Hello</button>
             <p id="hiddenMessage" style="display:none">Hi There!</p>
     </main>
         

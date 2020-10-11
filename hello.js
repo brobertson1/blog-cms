@@ -31,18 +31,18 @@ isSettled = getIsSettled(5, false)      //using functions
 var something = 'word';
 console.log(something);
 
-if (isSettled) {
-    document.write(fullName + " is settled.");
-} else {
-    document.write(fullName + " is not settled.");
-}
+//if (isSettled) {
+//    document.write(fullName + " is settled.");
+//} else {
+ //   document.write(fullName + " is not settled.");
+//}
 
-childrenNames.forEach(function(childName) {
-    document.write("<li>" +childName+ "<li>");
-});
+//childrenNames.forEach(function(childName) {
+ //   document.write("<li>" +childName+ "<li>");
+//});
 
 //hidden button messaging
 
 function revealMessage() {
-document.getElementByID("hiddenMessage"),style.display = 'block';
+document.getElementById("hiddenMessage").style.display = 'block';
 }
