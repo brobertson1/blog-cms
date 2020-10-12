@@ -190,3 +190,7 @@ label{
     font-weight: 700;
     color: rgb(53, 57, 58);
 }
+
+#editor{
+    height: 200px;
+}
