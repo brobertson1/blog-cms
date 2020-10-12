@@ -24,18 +24,23 @@ include 'header.php';
             
             <h1>Hello, World!</h1>
             <h2>Latest Posts</h2>
-            <ul>
+            <div id="sortable-blog-list">
+                <input class="search" placeholder="Search"/>
+                <button class="sort" data-sort="title">Sort</button>
+            
+            <ul class="list">
                 <?php
                     $postTitle = getPostTitlesFromDatabase();
 
                     foreach($postTitle as $postTitle) {
-                        echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . "</a></li>";
+                        echo "<li><a href='post.php?title=" .$postTitle . "' class='title'>" . $postTitle . "</a></li>";
                     }
                 ?>
             </ul>
+            </div>
 
-            <button onclick="revealMessage()" class="primary-button">Hello</button>
-            <p id="hiddenMessage" style="display:none" class="hidden-message">Hi There!</p>
+            <button id="helloButton" class="primary-button">Hello</button>
+            <p id="hiddenMessage" class="hidden-message">Hi There!</p>
             </div>
            
            
