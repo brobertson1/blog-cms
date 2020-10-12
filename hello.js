@@ -41,8 +41,11 @@ console.log(something);
  //   document.write("<li>" +childName+ "<li>");
 //});
 
-//hidden button messaging
 
-function revealMessage() {
-document.getElementById("hiddenMessage").style.display = 'block';
-}
+
+//hidden button js function
+
+//function revealMessage() {                                         
+//document.getElementById("hiddenMessage").style.display = 'block'; 
+//)                                                                   
+//}
