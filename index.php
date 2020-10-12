@@ -1,4 +1,7 @@
-<?php include 'header.php'
+
+<?php 
+include 'head.php';
+include 'header.php';
 ?>
 
     <main>

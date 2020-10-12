@@ -4,16 +4,6 @@ ini_set('display_errors', 1);
 
 
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>blog cms</title>  
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-        <script src="hello.js"></script>
-        
-    
-    </head>
-
     <body>
     <header>   
         <nav>
