@@ -13,8 +13,8 @@ include 'header.php';
             <form class="post-form" action="submit-post.php" method="POST">
             <input type="text" id="title" name="title" placeholder="Title"></input><br>
             <input type="text" id="author" name="author" placeholder="Author"></input><br>
-            <input type="date" id="date" name="date" placeholder="Date"></input><br>
-            <div id="editor"></div>
+            <input type="date" id="date" name="date" placeholder="Date"></input><br><br>
+            <div id="editor"></div><br>
             <button id="submit" class="primary-button">Submit</input>  
             </form>
             </div>
