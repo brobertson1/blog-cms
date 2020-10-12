@@ -8,6 +8,7 @@ $(document).ready(function(){
     
     var editor=ace.edit("editor");
     editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
 
     
 
