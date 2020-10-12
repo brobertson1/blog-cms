@@ -11,11 +11,11 @@ include 'header.php';
             <p>If you have an idea for a post, we'd love to hear from you. Please fill out this form to submit your idea for a post.</p>
             <h2>Submission Form</h2>
             <form class="post-form" action="submit-post.php" method="POST">
-            <input type="text" id="title" name="title" placeholder="Title"></input>
-            <input type="text" id="author" name="author" placeholder="Author"></input>
-            <input type="date" id="date" name="date" placeholder="Date"></input>
+            <input type="text" id="title" name="title" placeholder="Title"></input><br>
+            <input type="text" id="author" name="author" placeholder="Author"></input><br>
+            <input type="date" id="date" name="date" placeholder="Date"></input><br>
             <div id="editor"></div>
-            <button id="submit">Submit</input>  
+            <button id="submit" class="primary-button">Submit</input>  
             </form>
             </div>
         </main>

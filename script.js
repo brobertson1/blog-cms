@@ -6,8 +6,10 @@ $(document).ready(function(){
         $("#hiddenMessage").show();
         })
     
-        var editor=ace.edit("editor");
-        editor.session.setMode("ace/mode/html");
+    var editor=ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+
+    
 
     $("#submit").click(function(){
         var title = $("#title").val();
@@ -32,4 +34,5 @@ var options = {
     valueNames: ['title']
 };
 new List('sortable-blog-list', options);
+
 
